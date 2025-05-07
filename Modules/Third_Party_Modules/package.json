@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon httpRouting.js"
   },
   "keywords": [
     "nodemon"
@@ -13,6 +14,7 @@
   "description": "",
   "dependencies": {
     "i": "^0.3.7",
+    "nodemon": "^3.1.10",
     "npm": "^11.3.0",
     "random-city-name": "^1.0.2",
     "random-fruits-name": "^1.10.1"
